@@ -1,0 +1,334 @@
+2026-03-30 13:47:50,566 [INFO] === TESTNET MODE ACTIVE (fake money) ===
+2026-03-30 13:47:51,156 [INFO] ========================================
+2026-03-30 13:47:51,156 [INFO]   BOT STARTING — TESTNET MODE
+2026-03-30 13:47:51,156 [INFO]   Symbol   : DOGEUSDT
+2026-03-30 13:47:51,156 [INFO]   Capital  : $5.0
+2026-03-30 13:47:51,156 [INFO]   Leverage : 3x
+2026-03-30 13:47:51,156 [INFO]   Notional : $12.0
+2026-03-30 13:47:51,156 [INFO] ========================================
+2026-03-30 13:47:52,157 [ERROR] API connection failed: APIError(code=-2014): API-key format invalid.
+2026-03-30 13:50:57,643 [INFO] === TESTNET MODE ACTIVE (fake money) ===
+2026-03-30 13:50:58,436 [INFO] ========================================
+2026-03-30 13:50:58,436 [INFO]   BOT STARTING — TESTNET MODE
+2026-03-30 13:50:58,436 [INFO]   Symbol   : DOGEUSDT
+2026-03-30 13:50:58,436 [INFO]   Capital  : $5.0
+2026-03-30 13:50:58,436 [INFO]   Leverage : 3x
+2026-03-30 13:50:58,436 [INFO]   Notional : $12.0
+2026-03-30 13:50:58,436 [INFO] ========================================
+2026-03-30 13:50:59,297 [ERROR] API connection failed: APIError(code=-2014): API-key format invalid.
+2026-03-30 13:54:10,602 [INFO] === TESTNET MODE ACTIVE (fake money) ===
+2026-03-30 13:54:11,167 [INFO] ========================================
+2026-03-30 13:54:11,167 [INFO]   BOT STARTING — TESTNET MODE
+2026-03-30 13:54:11,167 [INFO]   Symbol   : DOGEUSDT
+2026-03-30 13:54:11,167 [INFO]   Capital  : $5.0
+2026-03-30 13:54:11,167 [INFO]   Leverage : 3x
+2026-03-30 13:54:11,167 [INFO]   Notional : $12.0
+2026-03-30 13:54:11,167 [INFO] ========================================
+2026-03-30 13:54:12,197 [INFO] Futures USDT balance: 5000.00000000
+2026-03-30 13:54:13,132 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 13:54:13,133 [INFO] Strategy loop started.
+2026-03-30 13:54:13,143 [INFO] Telegram bot listening...
+2026-03-30 13:54:16,083 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getMe "HTTP/1.1 200 OK"
+2026-03-30 13:54:16,312 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-30 13:54:16,313 [INFO] Application started
+2026-03-30 13:54:26,937 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:54:37,280 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:54:42,141 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:54:43,015 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 13:54:46,870 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:54:47,519 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 13:54:57,454 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:55:06,260 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:55:07,299 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 13:55:07,299 [ERROR] No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/binance_strategry_bot.py", line 173, in notify
+    asyncio.get_event_loop().run_until_complete(send_telegram(message))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 695, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 631, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1315, in process_update
+    await coroutine
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/venv/lib/python3.14/site-packages/telegram/ext/_handlers/basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/binance_strategry_bot.py", line 545, in cmd_resume
+    notify("*Bot resumed* via Telegram.")
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/binance_strategry_bot.py", line 175, in notify
+    asyncio.run(send_telegram(message))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 200, in run
+    raise RuntimeError(
+        "asyncio.run() cannot be called from a running event loop")
+RuntimeError: asyncio.run() cannot be called from a running event loop
+2026-03-30 13:55:13,143 [INFO] --- Tick ---
+2026-03-30 13:55:14,050 [INFO] Price=0.09334 | 24H H=0.09360 L=0.08901 | EMA9=0.09254 EMA21=0.09186 | Vol OK=False
+2026-03-30 13:55:14,050 [INFO] Signal: NEUTRAL
+2026-03-30 13:55:16,473 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:55:26,844 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:55:37,084 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:55:47,324 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:55:57,564 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:56:07,804 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:56:14,059 [INFO] --- Tick ---
+2026-03-30 13:56:14,782 [INFO] Price=0.09342 | 24H H=0.09360 L=0.08901 | EMA9=0.09254 EMA21=0.09186 | Vol OK=False
+2026-03-30 13:56:14,782 [INFO] Signal: NEUTRAL
+2026-03-30 13:56:18,045 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:56:29,104 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:56:29,821 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:56:31,281 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 13:56:39,139 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:56:40,078 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 13:56:40,079 [ERROR] No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/binance_strategry_bot.py", line 173, in notify
+    asyncio.get_event_loop().run_until_complete(send_telegram(message))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 695, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 631, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1315, in process_update
+    await coroutine
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/venv/lib/python3.14/site-packages/telegram/ext/_handlers/basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/binance_strategry_bot.py", line 545, in cmd_resume
+    await send_telegram("*Bot resumed* via Telegram.")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sabirerasul/Desktop/project/trader-bot/v2-doge-bot/binance_strategry_bot.py", line 175, in notify
+    asyncio.run(send_telegram(message))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 200, in run
+    raise RuntimeError(
+        "asyncio.run() cannot be called from a running event loop")
+RuntimeError: asyncio.run() cannot be called from a running event loop
+2026-03-30 13:56:49,483 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:56:59,784 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:57:10,066 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:57:14,792 [INFO] --- Tick ---
+2026-03-30 13:57:16,621 [INFO] Price=0.09344 | 24H H=0.09360 L=0.08901 | EMA9=0.09254 EMA21=0.09186 | Vol OK=False
+2026-03-30 13:57:16,621 [INFO] Signal: NEUTRAL
+2026-03-30 13:57:20,407 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:57:30,635 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:57:40,888 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:57:51,231 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:58:01,571 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:58:11,813 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:58:16,631 [INFO] --- Tick ---
+2026-03-30 13:58:17,279 [INFO] Price=0.09342 | 24H H=0.09360 L=0.08901 | EMA9=0.09256 EMA21=0.09186 | Vol OK=False
+2026-03-30 13:58:17,279 [INFO] Signal: NEUTRAL
+2026-03-30 13:58:22,054 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:58:32,290 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:58:42,535 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:58:52,774 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:59:02,986 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:59:13,254 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:59:17,286 [INFO] --- Tick ---
+2026-03-30 13:59:18,014 [INFO] Price=0.09340 | 24H H=0.09360 L=0.08901 | EMA9=0.09255 EMA21=0.09186 | Vol OK=False
+2026-03-30 13:59:18,014 [INFO] Signal: NEUTRAL
+2026-03-30 13:59:23,471 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:59:33,735 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:59:43,973 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 13:59:54,172 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:00:04,401 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:00:14,696 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:00:18,022 [INFO] --- Tick ---
+2026-03-30 14:00:19,409 [INFO] Price=0.09345 | 24H H=0.09360 L=0.08901 | EMA9=0.09255 EMA21=0.09186 | Vol OK=False
+2026-03-30 14:00:19,409 [INFO] Signal: NEUTRAL
+2026-03-30 14:00:24,912 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:00:35,177 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:00:45,387 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:00:55,657 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:01:05,853 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:01:16,049 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:01:19,416 [INFO] --- Tick ---
+2026-03-30 14:01:20,364 [INFO] Price=0.09346 | 24H H=0.09360 L=0.08901 | EMA9=0.09256 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:01:20,364 [INFO] Signal: NEUTRAL
+2026-03-30 14:01:26,377 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:01:36,720 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:01:46,944 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:01:57,160 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:02:07,440 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:02:17,645 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:02:20,373 [INFO] --- Tick ---
+2026-03-30 14:02:21,177 [INFO] Price=0.09348 | 24H H=0.09360 L=0.08901 | EMA9=0.09257 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:02:21,178 [INFO] Signal: NEUTRAL
+2026-03-30 14:02:27,890 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:02:38,853 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:02:49,144 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:02:59,357 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:03:09,570 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:03:19,829 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:03:21,185 [INFO] --- Tick ---
+2026-03-30 14:03:21,914 [INFO] Price=0.09345 | 24H H=0.09360 L=0.08901 | EMA9=0.09257 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:03:21,915 [INFO] Signal: NEUTRAL
+2026-03-30 14:03:30,026 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:03:40,318 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:03:50,514 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:04:00,714 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:04:09,019 [INFO] === TESTNET MODE ACTIVE (fake money) ===
+2026-03-30 14:04:09,656 [INFO] ========================================
+2026-03-30 14:04:09,656 [INFO]   BOT STARTING — TESTNET MODE
+2026-03-30 14:04:09,656 [INFO]   Symbol   : DOGEUSDT
+2026-03-30 14:04:09,656 [INFO]   Capital  : $5.0
+2026-03-30 14:04:09,656 [INFO]   Leverage : 3x
+2026-03-30 14:04:09,656 [INFO]   Notional : $12.0
+2026-03-30 14:04:09,656 [INFO] ========================================
+2026-03-30 14:04:10,752 [INFO] Futures USDT balance: 5000.00000000
+2026-03-30 14:04:12,529 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 14:04:12,531 [INFO] Web dashboard started at http://localhost:8080
+2026-03-30 14:04:12,531 [INFO] Strategy loop started — trading active.
+2026-03-30 14:04:12,542 [INFO] Telegram bot listening...
+2026-03-30 14:04:15,531 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getMe "HTTP/1.1 200 OK"
+2026-03-30 14:04:17,340 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-30 14:04:17,341 [INFO] Application started
+2026-03-30 14:04:29,549 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:04:39,814 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:04:50,156 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:05:00,396 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:05:10,636 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:05:12,541 [INFO] --- Tick ---
+2026-03-30 14:05:13,194 [INFO] Price=0.09347 | 24H H=0.09360 L=0.08901 | EMA9=0.09256 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:05:13,194 [INFO] Signal: NEUTRAL
+2026-03-30 14:05:20,886 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:05:31,116 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:05:41,356 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:05:51,597 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:06:01,805 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:06:12,029 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:06:13,202 [INFO] --- Tick ---
+2026-03-30 14:06:13,861 [INFO] Price=0.09347 | 24H H=0.09360 L=0.08901 | EMA9=0.09256 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:06:13,861 [INFO] Signal: NEUTRAL
+2026-03-30 14:06:22,224 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:06:32,442 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:06:42,695 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:06:52,905 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:07:03,122 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:07:13,350 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:07:13,870 [INFO] --- Tick ---
+2026-03-30 14:07:14,573 [INFO] Price=0.09352 | 24H H=0.09360 L=0.08901 | EMA9=0.09257 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:07:14,573 [INFO] Signal: NEUTRAL
+2026-03-30 14:07:23,555 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:07:33,896 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:07:44,095 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:07:54,300 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:08:04,521 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:08:14,581 [INFO] --- Tick ---
+2026-03-30 14:08:14,727 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:08:15,663 [INFO] Price=0.09355 | 24H H=0.09360 L=0.08901 | EMA9=0.09258 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:08:15,663 [INFO] Signal: NEUTRAL
+2026-03-30 14:08:24,983 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:08:35,201 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:08:45,473 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:08:55,701 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:09:05,925 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:09:15,671 [INFO] --- Tick ---
+2026-03-30 14:09:16,126 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:09:16,728 [INFO] Price=0.09366 | 24H H=0.09367 L=0.08901 | EMA9=0.09258 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:09:16,728 [INFO] Signal: NEUTRAL
+2026-03-30 14:09:26,434 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:09:36,674 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:09:46,945 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:09:57,162 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:10:07,375 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:10:16,736 [INFO] --- Tick ---
+2026-03-30 14:10:17,494 [INFO] Price=0.09367 | 24H H=0.09369 L=0.08901 | EMA9=0.09261 EMA21=0.09189 | Vol OK=False
+2026-03-30 14:10:17,494 [INFO] Signal: NEUTRAL
+2026-03-30 14:10:17,633 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:10:27,874 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:10:38,167 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:10:48,386 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:10:58,590 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:11:08,826 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:11:17,501 [INFO] --- Tick ---
+2026-03-30 14:11:18,462 [INFO] Price=0.09361 | 24H H=0.09369 L=0.08901 | EMA9=0.09261 EMA21=0.09189 | Vol OK=False
+2026-03-30 14:11:18,462 [INFO] Signal: NEUTRAL
+2026-03-30 14:11:19,030 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:11:29,236 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:11:39,486 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:11:49,747 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:11:59,967 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:12:10,173 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:12:18,472 [INFO] --- Tick ---
+2026-03-30 14:12:19,198 [INFO] Price=0.09352 | 24H H=0.09369 L=0.08901 | EMA9=0.09260 EMA21=0.09189 | Vol OK=False
+2026-03-30 14:12:19,198 [INFO] Signal: NEUTRAL
+2026-03-30 14:12:20,386 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:12:30,587 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:12:40,893 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:12:51,167 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:13:01,391 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:13:11,716 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:13:19,207 [INFO] --- Tick ---
+2026-03-30 14:13:19,807 [INFO] Price=0.09352 | 24H H=0.09369 L=0.08901 | EMA9=0.09258 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:13:19,807 [INFO] Signal: NEUTRAL
+2026-03-30 14:13:21,966 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:13:32,208 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:13:42,403 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:13:52,601 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:14:02,847 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:14:13,072 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:14:19,815 [INFO] --- Tick ---
+2026-03-30 14:14:20,552 [INFO] Price=0.09349 | 24H H=0.09369 L=0.08901 | EMA9=0.09258 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:14:20,552 [INFO] Signal: NEUTRAL
+2026-03-30 14:14:23,323 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:14:33,535 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:14:43,729 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:14:53,951 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:04,169 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:14,438 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:20,561 [INFO] --- Tick ---
+2026-03-30 14:15:21,178 [INFO] Price=0.09348 | 24H H=0.09369 L=0.08901 | EMA9=0.09257 EMA21=0.09187 | Vol OK=False
+2026-03-30 14:15:21,178 [INFO] Signal: NEUTRAL
+2026-03-30 14:15:24,692 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:32,594 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:33,442 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 14:15:34,831 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:35,415 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 14:15:45,229 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:50,984 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:15:53,646 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/sendMessage "HTTP/1.1 200 OK"
+2026-03-30 14:16:01,291 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:16:11,528 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:16:21,186 [INFO] Bot is paused. Send /resume to continue.
+2026-03-30 14:16:21,753 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:16:31,964 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:16:42,164 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:16:52,390 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:17:02,647 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:17:12,972 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:17:21,194 [INFO] Bot is paused. Send /resume to continue.
+2026-03-30 14:17:23,166 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:17:33,364 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:17:43,611 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:17:53,852 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:18:04,094 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:18:14,292 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:18:21,201 [INFO] Bot is paused. Send /resume to continue.
+2026-03-30 14:18:24,653 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:18:34,899 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:18:45,347 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:18:55,577 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:19:05,786 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:19:16,059 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:19:21,210 [INFO] Bot is paused. Send /resume to continue.
+2026-03-30 14:19:26,257 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:19:36,469 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:19:46,679 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:19:56,916 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"
+2026-03-30 14:20:07,130 [INFO] HTTP Request: POST https://api.telegram.org/bot8702910446:AAHYwbCgLMXnZ8Kypc5Buy4Divg77ZpbXiE/getUpdates "HTTP/1.1 200 OK"

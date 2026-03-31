@@ -71,8 +71,8 @@ EMA_4H_SLOW     = 21             # 4h slow EMA
 RSI_PERIOD      = 14             # RSI period
 RSI_LONG_MIN    = 50             # RSI must be above this for LONG
 RSI_SHORT_MAX   = 50             # RSI must be below this for SHORT
-HIGH_LOW_BUFFER = 0.002          # 0.2% buffer from 24h high/low
-VOLUME_MULT     = 1.3            # Volume must be 1.3x average
+HIGH_LOW_BUFFER = 0.005          # 0.5% buffer from 24h high/low (wider catch zone)
+VOLUME_MULT     = 1.1            # Volume must be 1.1x average (relaxed for low-vol markets)
 
 # -- Risk Management --
 STOP_LOSS_PCT   = 0.015          # 1.5% stop loss from entry
